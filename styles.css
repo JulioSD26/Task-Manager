@@ -1,0 +1,146 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Variables */
+  :root {
+    --color-black: #000000;
+    --color-gold: #FFD700;
+    --color-white: #FFFFFF;
+    --color-gray-dark: #1c1c1c;
+  }
+  
+  /* Login Page */
+  .login-bg {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: var(--color-gray-dark);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-gold);
+  }
+  
+  .login-form .input-field {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid var(--color-gold);
+    border-radius: 5px;
+    background: none;
+    color: var(--color-white);
+  }
+  
+  .btn-primary {
+    background-color: var(--color-gold);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--color-black);
+    transition: background 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e6c200;
+  }
+  
+  .forgot-link {
+    display: block;
+    margin-top: 1rem;
+    color: var(--color-white);
+    font-size: 0.9rem;
+  }
+  
+  /* Tasks Page */
+  .header {
+    background: var(--color-black);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .welcome-text {
+    font-size: 1.5rem;
+  }
+  
+  .logout-btn {
+    background-color: var(--color-gold);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--color-black);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e6c200;
+  }
+  
+  .main-content {
+    padding: 2rem;
+  }
+  
+  .task-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-gray-dark);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+  }
+  
+  .task-text {
+    font-size: 1rem;
+  }
+  
+  .task-actions .btn-edit,
+  .task-actions .btn-delete {
+    background: none;
+    border: 1px solid var(--color-gold);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: var(--color-gold);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .task-actions .btn-edit:hover,
+  .task-actions .btn-delete:hover {
+    background: var(--color-gold);
+    color: var(--color-black);
+  }
+  
